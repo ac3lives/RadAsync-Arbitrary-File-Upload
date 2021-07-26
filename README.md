@@ -1,4 +1,4 @@
 # RadAsync-Arbitrary-File-Upload
 AsyncUploadHandler in Telerik's RadAsyncUpload feature is configured with a hard coded (default) encryption key. This key is used to encrypt upload variables which are sent to the user, and subsequently used in file upload requests by the user to the server. If this key is not changed from it's default value of "PrivateKeyForEncryptionOfRadAsyncUploadConfiguration", a malicious actor can capture the file upload request to /Telerik.Web.Ui.WebResource.axd and decrypt parameter 'rauPostData'. Once decrypted, the file upload location can be modified and re-encrypted, resulting in arbitrary file upload to any location on the server which the web server user has permissions to write to.
 
-For a write-up on how to use this exploit, visit http://www.acenyethehackerguy.com/2017/11/the-issue-asyncuploadhandler-in.html
+For a write-up on how to use this exploit, visit //Removed blog, outdated, Github pages coming eventually//
